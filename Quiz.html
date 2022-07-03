@@ -1,0 +1,170 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Quiz.css" />
+   <!-- Link for the font used for Quiz heading -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./Quiz.js"></script>
+    <title>Quiz</title>
+  </head>
+  <body>
+    <!-- Logo for the Quiz -->
+    <div class="nav">
+        <!-- Image Reference: https://www.canstockphoto.com/quiz-text-in-white-background-78765081.html -->
+      <a href="Quiz.html"><img src="./Logo.png" alt="Logo" /></a>
+    </div>
+
+    <div>
+        <!-- Heading for the quiz -->
+      <h1 class="heading">Javascript Quiz</h1>
+      <p class="quiz">Take this Quiz to Test your Knowledge of Javascript</p>
+    </div>
+
+      <!-- Form For the Quiz-->
+      <form action="" class="form">
+        <!-- Question 1 -->
+        <div id="q1">
+          <h2 class="questions">Question 1:</h2>
+          <!-- Statement of the question -->
+          <h3 class="statement">
+            How to write an IF statement for executing some code if "i" is NOT
+            equal to 5?
+          </h3>
+          <!-- Radio buttons for the question -->
+          <input type="radio" name="q1" id="opt-1" value="if (i!= 5)" />if (i!=
+          5) <br /><br />
+          <input type="radio" name="q1" id="opt-2" value="if i <> 5" />if i <> 5
+          <br /><br />
+          <input type="radio" name="q1" id="opt-3" value="if i =! 5 then" />if i
+          =! 5 then <br /><br />
+          <input type="radio" name="q1" id="opt-4" value="if (i <> 5)" />if (i
+          <> 5) <br /><br />
+        </div>
+
+        <!-- Question 2 -->
+        <div id="q2">
+          <h2 class="questions">Question 2:</h2>
+          <!-- Statement of the question -->
+          <h3 class="statement">
+How do you create a function in JavaScript?          </h3>
+          <!-- Radio buttons for the question -->
+          <input
+            type="radio"
+            name="q2"
+            id="opt-1"
+            value='function:myFunction()'
+          />function:myFunction() <br /><br />
+          <input
+            type="radio"
+            name="q2"
+            id="opt-2"
+            value="function myFunction()"
+          />function myFunction()<br /><br />
+          <input
+            type="radio"
+            name="q2"
+            id="opt-3"
+            value='function=myFunction()'
+          />function=myFunction()<br /><br />
+          <input
+            type="radio"
+            name="q2"
+            id="opt-4"
+            value='None'
+          />None <br /><br />
+        </div>
+        <!-- Question 3 -->
+        <div id="q3">
+          <h2 class="questions">Question 3:</h2>
+          <!-- Statement of the question -->
+          <h3 class="statement">
+            Which event occurs when the user clicks on an HTML element?
+          </h3>
+          <!-- Radio buttons for the question -->
+          <input type="radio" name="q3" id="opt-1" value="onclick" />onclick
+          <br /><br />
+          <input
+            type="radio"
+            name="q3"
+            id="opt-2"
+            value="onmouseover"
+          />onmouseover <br /><br />
+          <input
+            type="radio"
+            name="q3"
+            id="opt-3"
+            value="onmouseclick"
+          />onmouseclick <br /><br />
+          <input type="radio" name="q3" id="opt-4" value="onchange" />onchange
+          <br /><br />
+        </div>
+        <!-- Question 4 -->
+        <div id="q4">
+<h2 class="questions">Question 4:</h2>
+          <!-- Statement of the question -->
+        <h3 class="statement">
+          How do you write "Hello World" in an alert box?
+        </h3>
+        <!-- Radio buttons for the question -->
+        <input
+          type="radio"
+          name="q4"
+          id="opt-1"
+          value='alert("Hello World");'
+        />alert("Hello World");<br /><br />
+        <input
+          type="radio"
+          name="q4"
+          id="opt-2"
+          value='msgBox("Hello World");'
+        />msgBox("Hello World");<br /><br />
+        <input
+          type="radio"
+          name="q4"
+          id="opt-3"
+          value='alertBox("Hello World");'
+        />alertBox("Hello World");<br /><br />
+        <input
+          type="radio"
+          name="q4"
+          id="opt-4"
+          value='msg("Hello World");'
+        />msg("Hello World"); <br /><br />
+        </div>
+        <!-- Question 5 -->
+        <div id="q5">
+            <h2 class="questions">Question 5:</h2>
+            <!-- Statement of the question -->
+            <h3 class="statement">
+              How do you find the number with the highest value of x and y?
+            </h3>
+            <!-- Radio buttons for the question -->
+            <input
+              type="radio"
+              name="q5"
+              id="opt-1"
+              value="Math.max(x, y)"
+            />Math.max(x, y)<br /><br />
+            <input
+              type="radio"
+              name="q5"
+              id="opt-2"
+              value="Math.ceil(x, y)"
+            />Math.ceil(x, y)<br /><br />
+            <input type="radio" name="q5" id="opt-3" value="top(x, y)" />top(x,
+            y)<br /><br />
+            <input type="radio" name="q5" id="opt-4" value="ceil(x, y)" />ceil(x,
+            y)<br /><br />
+          </form>
+        </div>
+        <!-- Submit Button -->
+            <input type="button" value="submit" class="submit" id="Button" onclick="check()" />
+            <br /><br /><br /><br />
+            
+  </body>
+</html>
